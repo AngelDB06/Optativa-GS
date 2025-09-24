@@ -1,6 +1,5 @@
 # Tutorial para la conexión SSH a nuestro repositorio
 
-```bash
 pwd
 ls ~/.ssh   # para ver si tenemos una conexión
 ssh-keygen -t ed25519 -C "adombar413@g.educaand.es"   # generar la clave publica y privada ssh
