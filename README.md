@@ -19,7 +19,7 @@ echo "# Configurando SSH" > README.md   # crear archivo vía ssh
 
 git status -s   # ver los ficheros que se ha hecho seguimiento
 git add .   # añadir al área stage todo lo que hay en el directorio
-git add nombredelfichero
+git add nombredelfichero # para añadir al área stage un solo fichero
 
 git commit -m "Created: README.md"   # hacer un commit con un mensaje
 git log --oneline   # información sobre los últimos commits
